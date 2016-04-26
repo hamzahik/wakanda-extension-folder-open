@@ -1,0 +1,22 @@
+{
+	"extension": {
+		"name": "folder-open",
+		"version": "1.0.0",
+		"description": "Open a folder in Wakanda Studio",
+		"icon": "folder.png",
+		"senders": [
+			{
+				"location": "studioToolbar",
+				"icon": "folder.png",
+				"actionName": "openFolder"
+			}
+		],
+		"actions": [
+			{
+				"name": "openFolder",
+				"title": "Open Folder"
+			}
+		],
+		"lifetime": "action_lifetime"
+	}
+}
